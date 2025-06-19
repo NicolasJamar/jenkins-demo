@@ -13,4 +13,4 @@ def read_user(name: str):
 
 @app.get("/becode/{name}", response_class=PlainTextResponse)
 def read_user(name: str):
-    return f"Hello {name}" 
+    return f"Salut {name}" 
