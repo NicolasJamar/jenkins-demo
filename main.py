@@ -10,3 +10,7 @@ def read_root():
 @app.get("/user/{name}", response_class=PlainTextResponse)
 def read_user(name: str):
     return f"Hello {name}" 
+
+@app.get("/becode/{name}", response_class=PlainTextResponse)
+def read_user(name: str):
+    return f"Hello {name}" 
